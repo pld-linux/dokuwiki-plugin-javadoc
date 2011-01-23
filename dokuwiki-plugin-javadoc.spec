@@ -9,6 +9,7 @@ Source0:	http://www.doolin-guif.net/wiki/lib/exe/fetch.php?media=plugin:plugin-%
 # Source0-md5:	a6629e93b430f1a38ab4d2623f94f2ca
 URL:		http://www.dokuwiki.org/plugin:javadoc
 BuildRequires:	rpmbuild(macros) >= 1.520
+BuildRequires:	unzip
 Requires:	dokuwiki >= 20061106
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
